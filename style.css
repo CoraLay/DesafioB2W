@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Titles;
+    src: url("fonts/CharlemagneStd-Bold.otf") format("opentype");
+}
+
 /* geral */
 * {
   margin: 0;
