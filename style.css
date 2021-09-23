@@ -82,6 +82,10 @@ body {
   padding: 0.5em;
 }
 
+.main-title.pages {
+  font-size: 2em;
+}
+
 /* Conteúdo */
 
 .bg-light {
