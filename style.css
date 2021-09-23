@@ -141,3 +141,32 @@ h2 {
   line-height: 1.5em;
 }
 
+#cast {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: rgba(255, 255, 255, 0.200);
+  max-width: 50%;
+  padding: 2em;
+}
+
+img {
+  padding: 10px 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Não sei se ficou realmente bom...*/
+}
+
+#trailer {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.200);
+  max-width: 50%;
+  padding: 2em;
+}
+
+/* Rodapé */
+
+footer {
+  color: grey;
+  margin: 1em;
+  color: #DAA520;
+}
