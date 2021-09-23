@@ -48,6 +48,7 @@ body {
   font-weight: bold;
   text-shadow: 3px 3px 5px rgba(37, 33, 32, 0.815);
   text-transform: uppercase;
+  font-size: 1.2em;
 }
 
 .navbar ul li a:hover {
@@ -105,6 +106,10 @@ h2 {
 
 .icon-menu {
   color: #000000;
+}
+
+.img-title {
+  box-shadow: 4px 4px 6px rgba(49, 49, 49, 0.349);
 }
 
 .nav-serie ul {
