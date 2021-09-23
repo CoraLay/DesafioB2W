@@ -44,7 +44,7 @@ body {
   text-shadow: 3px 3px 5px rgba(37, 33, 32, 0.815);
 }
 
-.navbar ul li a:hover{
+.navbar ul li a:hover {
   background-color: rgba(255, 255, 255, 0.200);
   border-radius: 10px;
   color: black;
@@ -65,7 +65,7 @@ body {
 .main-title h2,
 h2 {
   font-size: 2rem;
-  color:#e7d197;
+  color: #e7d197;
   margin: 0 0 0.5em 0;
 }
 
@@ -88,6 +88,14 @@ h2 {
 
 /* Conteúdo */
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
 .icon-menu {
   color: #000000;
 }
@@ -102,10 +110,18 @@ h2 {
 
 }
 
-.nav-serie ul li a {
+.nav-serie ul a i {
   text-decoration: none;
   color: white;
+  margin: 0 20px 20px 20px;
+  font-size: 30px;
+}
 
+.nav-serie ul a i:hover {
+  text-decoration: none;
+  color: white;
+  margin: 0 20px 20px 20px;
+  font-size: 30px;
 }
 
 .bg-light {
@@ -124,16 +140,4 @@ h2 {
 .bg-light .p-main {
   line-height: 1.5em;
 }
-
-
-
-/* Rodapé */
-
-footer {
-    color: grey;
-    margin: 1em;
-}
-
-
-
 
