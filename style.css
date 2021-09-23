@@ -47,6 +47,7 @@ body {
   padding: 0.5em 1em;
   font-weight: bold;
   text-shadow: 3px 3px 5px rgba(37, 33, 32, 0.815);
+  text-transform: uppercase;
 }
 
 .navbar ul li a:hover {
