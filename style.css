@@ -65,6 +65,7 @@ body {
   margin: 2em;
   font-size: 3em;
   text-shadow: 3px 3px 5px rgba(37, 33, 32, 0.815);
+  font-family: Titles;
 }
 
 .main-title h2,
