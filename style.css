@@ -19,11 +19,11 @@ body {
   color: black;
 }
 
+/* menu de navegação */
+
 .navbar {
   line-height: 2em;
 }
-
-/* menu de navegação */
 
 .navbar ul {
   display: flex;
@@ -50,7 +50,6 @@ body {
   color: black;
   box-shadow: 2px 2px 4px rgba(49, 49, 49, 0.062);
   text-shadow: 0 0 4px rgb(255, 255, 255);
-
 }
 
 /* Títulos */
@@ -63,10 +62,11 @@ body {
   text-shadow: 3px 3px 5px rgba(37, 33, 32, 0.815);
 }
 
-.main-title h2 {
-  font-size: 0.7em;
+.main-title h2,
+h2 {
+  font-size: 2rem;
   color:#e7d197;
-  padding: 0.5em;
+  margin: 0 0 0.5em 0;
 }
 
 .quote {
@@ -88,6 +88,26 @@ body {
 
 /* Conteúdo */
 
+.icon-menu {
+  color: #000000;
+}
+
+.nav-serie ul {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-serie ul li {
+  list-style-type: none;
+
+}
+
+.nav-serie ul li a {
+  text-decoration: none;
+  color: white;
+
+}
+
 .bg-light {
   background-color: rgba(255, 255, 255, 0.200);
   max-width: 50%;
@@ -101,14 +121,19 @@ body {
   font-size: 2em;
 }
 
-.bg-light p {
+.bg-light .p-main {
   line-height: 1.5em;
 }
 
-.icon-menu {
-  color: #000000;
-}
+
+
+/* Rodapé */
 
 footer {
-
+    color: grey;
+    margin: 1em;
 }
+
+
+
+
