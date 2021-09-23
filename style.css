@@ -1,4 +1,4 @@
-
+/* geral */
 * {
   margin: 0;
   padding: 0;
@@ -9,14 +9,21 @@ body {
   background-image: url(images/bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
   font-family: "Georgia";
+}
+
+::selection {
+  background-color: #DAA520;
+  color: black;
 }
 
 .navbar {
   line-height: 2em;
 }
+
+/* menu de navegação */
 
 .navbar ul {
   display: flex;
@@ -32,17 +39,21 @@ body {
 .navbar ul li a {
   text-decoration: none;
   color: white;
-  padding: 1em;
-  margin: 0.5em;
+  padding: 0.5em 1em;
   font-weight: bold;
+  text-shadow: 3px 3px 5px rgba(37, 33, 32, 0.815);
 }
 
 .navbar ul li a:hover{
   background-color: rgba(255, 255, 255, 0.200);
   border-radius: 10px;
   color: black;
-  box-shadow: 2px 2px 5px rgba(49, 49, 49, 0.062);
+  box-shadow: 2px 2px 4px rgba(49, 49, 49, 0.062);
+  text-shadow: 0 0 4px rgb(255, 255, 255);
+
 }
+
+/* Títulos */
 
 .main-title {
   text-align: center;
@@ -58,13 +69,6 @@ body {
   padding: 0.5em;
 }
 
-.bg-light {
-  background-color: rgba(255, 255, 255, 0.200);
-  max-width: 60%;
-  display: inline-block;
-  padding: 2em;
-}
-
 .quote {
   display: flex;
   flex-direction: column;
@@ -77,5 +81,25 @@ body {
   font-size: 0.8em;
   padding: 0.5em;
 }
+
+/* Conteúdo */
+
+.bg-light {
+  background-color: rgba(255, 255, 255, 0.200);
+  max-width: 50%;
+  display: inline-block;
+  padding: 2em;
+  text-shadow: 1px 1px 3px black;
+}
+
+.bg-light p::first-letter {
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.bg-light p {
+  line-height: 1.5em;
+}
+
 
 
