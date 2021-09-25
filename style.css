@@ -173,6 +173,7 @@ h2 {
 
 .character {
   padding: 10px 20px;
+  margin: 0 1.5em 1.5em 1.5em; 
   border-radius: 50%; /* Não sei se ficou realmente bom...*/
 }
 
