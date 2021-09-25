@@ -196,6 +196,25 @@ h2 {
   color: orange;
 }
 
+.gif {
+  width: 350px;
+}
+
+.img-roteiro {
+  width: 70%;
+  margin: 1.5em 0;
+}
+
+.point p a { 
+  text-decoration: none;
+  color: #DAA520;
+}
+
+.point p a:hover {
+  text-shadow: 2px 2px 2px #000000;
+  font-weight: bold;
+}
+
 /* Rodapé */
 
 footer {
