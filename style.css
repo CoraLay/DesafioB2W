@@ -213,12 +213,12 @@ h2 {
 }
 
 .img-w-100 {
+  margin: 1.5em 0 0 0;
   max-width: 40%;
   border: 2px solid #ffffff;
 }
 
 li figure figcaption {
-  margin-bottom: 2em;
   color: yellow;
 }
 
