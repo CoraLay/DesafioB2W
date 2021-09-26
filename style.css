@@ -121,6 +121,7 @@ h2 {
 
 .img-title {
   box-shadow: 4px 4px 6px rgba(49, 49, 49, 0.349);
+  margin-bottom: 2.5em;
 }
 
 .nav-serie ul {
@@ -156,7 +157,7 @@ h2 {
 }
 
 .bg-light.content {
-  padding: 6em;
+  padding: 4em 6em;
 }
 
 .bg-light p::first-letter {
