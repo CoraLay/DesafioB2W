@@ -15,6 +15,7 @@
 body {
   background-image: url(images/bg.jpg);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   color: rgb(255, 255, 255);
   text-align: center;
