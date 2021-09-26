@@ -5,8 +5,6 @@
     src: url("fonts/charlemagne-std.otf") format("opentype");
 }
 
-
-
 /* geral */
 * {
   margin: 0;
@@ -37,6 +35,7 @@ body {
 .navbar ul {
   display: flex;
   justify-content: flex-end;
+  flex-wrap: wrap;
   margin-right: 2em;
   margin-top: 1.5em;
 }
@@ -76,6 +75,7 @@ body {
 }
 
 .main-title h1 {
+  word-break: break-all;
   font-family: Titles;
 }
 
@@ -120,6 +120,7 @@ h2 {
 
 .img-title {
   box-shadow: 4px 4px 6px rgba(49, 49, 49, 0.349);
+  width: 100%;
 }
 
 .nav-serie ul {
@@ -148,7 +149,7 @@ h2 {
 
 .bg-light {
   background-color: rgba(255, 255, 255, 0.200);
-  max-width: 50%;
+  width: 70%;
   display: inline-block;
   padding: 2em;
   text-shadow: 1px 1px 5px black;
@@ -199,6 +200,7 @@ h2 {
 
 .gif {
   width: 350px;
+  max-width: 100%;
 }
 
 .img-roteiro {
@@ -214,6 +216,24 @@ h2 {
 .point p a:hover {
   text-shadow: 2px 2px 2px #000000;
   font-weight: bold;
+}
+
+main .img-w-100{
+  width: 100%;
+  margin: 30px auto 0px auto;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+}
+
+body .descricao-foto{
+  text-align: left;
+  color: #ccc;
+  display: block;
+  margin-bottom: 30px;
+}
+
+iframe {
+  max-width: 100%;
 }
 
 /* Rodapé */
