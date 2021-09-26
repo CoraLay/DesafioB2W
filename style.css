@@ -120,7 +120,6 @@ h2 {
 
 .img-title {
   box-shadow: 4px 4px 6px rgba(49, 49, 49, 0.349);
-  width: 100%;
 }
 
 .nav-serie ul {
@@ -175,7 +174,7 @@ h2 {
 .character {
   padding: 10px 20px;
   margin: 0 1.5em 1.5em 1.5em; 
-  border-radius: 50%; /* Não sei se ficou realmente bom...*/
+  border-radius: 50%;
 }
 
 #trailer {
@@ -218,11 +217,10 @@ h2 {
   font-weight: bold;
 }
 
-main .img-w-100{
-  width: 100%;
+.img-w-100{
+  max-width: 60%;
   margin: 30px auto 0px auto;
   border: 2px solid #ffffff;
-  border-radius: 5px;
 }
 
 body .descricao-foto{
