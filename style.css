@@ -153,11 +153,6 @@ h2 {
   padding: 4em 6em;
 }
 
-.bg-light p::first-letter {
-  font-weight: bold;
-  font-size: 2em;
-}
-
 .bg-light .p-main {
   line-height: 2em;
   font-size: 1.1em;
@@ -189,6 +184,26 @@ h2 {
   margin: 1.5em 0;
 }
 
+.roteiro {
+  font-weight: normal;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.281);
+  padding: 0.6em;
+  line-height: 1.2em;
+  max-width: 70%;
+  text-shadow: none;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 2px 2px 3px #000000;
+  color: #000000;
+  margin: auto;
+}
+
+.roteiro h3 {
+  font-weight: bold;
+  line-height: 1.3em;
+}
+
+
 .point p a { 
   text-decoration: none;
   color: #DAA520;
@@ -203,6 +218,10 @@ h2 {
   margin: 1.5em 0 0 0;
   max-width: 40%;
   border: 2px solid #ffffff;
+}
+
+ol {
+  list-style-position: inside;
 }
 
 li figure figcaption {
@@ -279,10 +298,6 @@ footer {
   .img-roteiro,
   .gif {
     width: 80%;
-  }
-
-  ol {
-    list-style-position: inside;
   }
 
 }
