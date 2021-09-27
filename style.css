@@ -288,4 +288,8 @@ footer {
     width: 80%;
   }
 
+  ol {
+    list-style-position: inside;
+  }
+
 }
