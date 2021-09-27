@@ -278,10 +278,14 @@ footer {
   }
 
   img,
-  .img-roteiro,
   .img-title,
   .gif {
     max-width: 100%;
+  }
+
+  .img-roteiro,
+  .gif {
+    width: 80%;
   }
 
 }
