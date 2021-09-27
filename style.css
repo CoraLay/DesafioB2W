@@ -238,6 +238,10 @@ footer {
 
 @media (max-width: 600px) {
 
+  body {
+    background-image: url(images/bg-2.jpg);
+  }
+
   .navbar ul {
     margin: 0;
     justify-content: center;
