@@ -84,7 +84,7 @@ body {
 h2 {
   font-size: 2rem;
   color: #e7d197;
-  margin: 0 0 0.5em 0;
+  margin: 1.3em 0 0.5em 0;
 }
 
 .quote {
@@ -220,6 +220,12 @@ h2 {
 
 li figure figcaption {
   color: yellow;
+}
+
+figure figcaption:first-of-type {
+  color: rgb(255, 217, 0);
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 .bg-light ol li {
