@@ -203,10 +203,17 @@ h2 {
   line-height: 1.3em;
 }
 
+.point .roteiro p a{
+  color: #ffffff;
+}
 
 .point p a { 
   text-decoration: none;
   color: #DAA520;
+}
+
+.point .roteiro:last-of-type {
+  margin-bottom: 2em;
 }
 
 .point p a:hover {
